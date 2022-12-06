@@ -10,6 +10,7 @@ import ForumPoll from 'core/forum/forum-poll';
 import ForumPostEdit from 'core/forum/forum-post-edit';
 import ForumPostInput from 'core/forum/forum-post-input';
 import ForumPostReport from 'core/forum/forum-post-report';
+import LinkMainHost from 'core/link-main-host';
 import Localtime from 'core/localtime';
 import MobileToggle from 'core/mobile-toggle';
 import OsuAudio from 'core/osu-audio/main';
@@ -47,6 +48,7 @@ export default class OsuCore {
   readonly forumPostEdit = new ForumPostEdit();
   readonly forumPostInput = new ForumPostInput();
   readonly forumPostReport = new ForumPostReport();
+  readonly linkMainHost = new LinkMainHost();
   readonly localtime = new Localtime();
   readonly mobileToggle = new MobileToggle();
   notificationsWorker: NotificationsWorker;
