@@ -1029,6 +1029,14 @@ function issue_icon($issue)
             return 'fas fa-copy';
         case 'invalid':
             return 'far fa-times-circle';
+        case 'osu!lazer':
+            return 'far fa-l';
+        case 'osu!web':
+            return 'far fa-w';
+        case 'osu!stable':
+            return 'far fa-s';
+        case 'tech support':
+            return 'far fa-screwdriver-wrench';
     }
 }
 
